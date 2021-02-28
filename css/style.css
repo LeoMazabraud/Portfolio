@@ -923,13 +923,12 @@ section div div div div h4 {
     font-size: 24px;
     line-height: 33px;}
 
-section div div div div span {
+.span_style span {
     display: block;
     margin-bottom: 15px;
     font-size: 14px;
     color: #c18f59;
-    font-family: "Calisto-MT-Bold";
-}
+    font-family: "Calisto-MT-Bold"; }
 
 
 
