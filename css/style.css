@@ -34,6 +34,16 @@
     .universal-h2 {
         font-size: 30px; } }
 
+@media only screen and (max-width: 700px) {
+    .top-banner__image {
+        display: none}
+
+    .fh5co-top-banner {
+        height: 500px;
+    }
+}
+
+
 .universal-h2-bckg {
     background-image: url("../images/double-line.svg");
     background-repeat: no-repeat;
@@ -558,7 +568,7 @@
 .single-blog .single-blog__text {
     width: 50%;
     padding: 7%;
-    border: 3px solid black;
+    border: 3px #c18f59;
     border-left: 0; }
 .single-blog .single-blog__text h4 {
     margin-bottom: 5px;
@@ -865,6 +875,7 @@
 .modal {
     margin-top: 5%;
     position: relative;
+    z-index: 10;
 }
 .modal #toggle1 {
     visibility: hidden;
