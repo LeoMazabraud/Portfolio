@@ -133,7 +133,8 @@
     align-items: flex-end;
     background-image: url("../images/top-banner-bckg.jpg");
     background-position: center;
-    background-size: cover; }
+    background-size: cover;
+    width: 100%;}
 .fh5co-top-banner::after {
     content: '';
     position: absolute;
